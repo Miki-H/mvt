@@ -1,0 +1,241 @@
+* {
+    margin:0;
+    padding:0; 
+}
+
+section {
+    display: flex;
+    position: absolute;
+    z-index: 4;
+}
+
+/* Section 1 */
+.section1 {
+    width:27vw;
+    margin-right:2%;
+    margin-left:5%;
+}
+
+.logo {
+    width:20vw;
+    height:23vh;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid lightslategray;
+}
+
+.navigation {
+    margin-top:2vh;
+    width: 100%;
+    height: 6vh;
+    background-color: #19e5e5;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.toogle {
+    height:3.6vh;
+    width: 2.2vw;
+    margin-left: 3%;
+}
+
+.cgr {
+    margin-left:2%;
+}
+
+.submenu {
+    text-decoration: none;
+    background-color: #ececfa;
+    display: block;
+    padding: 4% 4%;
+    border-bottom: 1px solid #a7a7ad;
+    padding-left: 4%;
+}
+
+.submenu:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+/* ********* */
+
+/* Section 2 */
+.section2 {
+    width:68vw;
+    display: inline-block;
+}
+
+.txtsrch {
+    margin-left:5%;
+    margin-top: 5%;
+    width:22vw;
+    height: 5vh;
+    border:1px ridge #d5d5e6;
+}
+
+.txtsrch[placeholder] {
+    padding-left:1%;
+}
+
+.btnsrch {
+    width: 5.6vw;
+    height: 5vh;
+    background-color: #19e5e5;
+    border:0px;
+}
+
+.icon-appel{
+    height:4.5vh;
+    margin-left:6%;
+}
+
+.no-tel {
+    font-size:1.1vw;
+    font-family: fantasy;
+    position: absolute;
+    left:83%;
+    top:7%;
+    right:1%;
+}
+.no-tel1{
+    font-size:1.1vw;
+    font-family: fantasy;
+    position: absolute;
+    left:83%;
+    top:4%;
+    right:1%;
+}
+
+.se_deconnecter{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    position:absolute;
+    left:86%;
+    top:8%;
+}
+
+nav {
+    margin-top:4%;
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu-item {
+    margin-top: 5vh;
+    padding: 3% 3% 3% 3%;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Lobster Two'; 
+    font-size:1.1vw;
+    box-shadow: 10px 15px 50px black;
+}
+
+.menu-item:hover {
+    background-color: #1d9550;
+    box-shadow:none;
+}
+
+.slider {
+    background-color: #ececfa;
+    width: 68vw;
+    height: 52vh;
+    margin-top: 7%;
+    overflow: hidden;
+    margin-top: 15vh;
+}
+
+.slider .slides {
+    width: 200vw;
+    height: 52vh;
+    display: flex;
+}
+
+.slider .slide {
+    width: 200vw;
+    height: 52vh;
+    display: flex;
+}
+
+.slide1 {
+    width: 68vw;
+    height: 52vh;
+}
+
+.slide1 .img1 {
+    width: 33vw;
+    height: 38vh;
+    display: inline-block;
+    margin-top: 4%;
+    padding-left: 4%;
+    border-radius: 10px;
+}
+
+
+.slide1 .img2 {
+    width: 33vw;
+    height: 38vh;
+    display: inline-block;
+    margin-top: 4%;
+    padding-left: 4%;
+    border-radius: 10px;
+}
+
+.slide1 .img3 {
+    width: 33vw;
+    height: 38vh;
+    display: inline-block;
+    margin-top: 4%;
+    padding-left: 4%;
+    border-radius: 10px;
+}
+.constant {
+    font-family: 'Pacifico';
+    margin-bottom: 4vh;
+    position: absolute;
+    width: 26vw;
+    height: 52vh;
+    margin-left: 35vw;
+    color: white;
+}
+
+.constant h1 {
+    margin-top: 10vh;
+    color: #19e5e5;
+}
+
+.constant p {
+    font-family: "Pacifico";
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: black;
+}
+
+.constant .btnshopnow{
+    padding: 4%;
+    background-color: #313030;
+    border-radius: 10px;
+}
+
+.constant .btnshopnow:hover{
+    padding: 4%;
+    background-color: #d13030;
+    border-radius: 10px;
+}
+
+.connect {
+    padding-left: 4%;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+
+}
+
+/* *********  */
